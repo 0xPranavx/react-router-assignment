@@ -14,13 +14,7 @@ export default function Root() {
                         ? "mr-4"
                         : "mr-4"
                     } to="/">home</NavLink>
-            <NavLink  className={({ isActive, isPending }) =>
-                      isActive
-                        ? "border-b-2 border-white mr-4"
-                        : isPending
-                        ? "mr-4"
-                        : "mr-4"
-                    }to="/about">about</NavLink>
+          
             <NavLink  className={({ isActive, isPending }) =>
                       isActive
                         ? "border-b-2 border-white mr-4"
@@ -35,6 +29,13 @@ export default function Root() {
                         ? "mr-4"
                         : "mr-4"
                     }to="/product">Product</NavLink>
+            <NavLink  className={({ isActive, isPending }) =>
+                      isActive
+                        ? "border-b-2 border-white mr-4"
+                        : isPending
+                        ? "mr-4"
+                        : "mr-4"
+                    }to="/profile">profile</NavLink>
         </nav>
      
       </div>
